@@ -1,0 +1,23 @@
+{
+  "skill_name": "github-star-growth",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "https://github.com/asweigart/pyperclip のGitHubスターをもっと伸ばしたいです。リポジトリを見て改善点を提案してください。レポートは日本語でお願いします。",
+      "expected_output": "Prioritized (impact x effort) Markdown audit report covering README, discoverability, community, and promotion, with concrete evidence. Written in Japanese because the user explicitly requested it.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "I just open-sourced my CLI tool (the repo folder is at fixtures/taskly-cli) and it's stuck at like 12 stars. can you look at it and tell me what to fix to get more stars?",
+      "expected_output": "Prioritized markdown audit report in English, based on local files: catches missing license (TBD), no value prop, no demo, weak install docs, and gives stage-appropriate launch advice.",
+      "files": ["fixtures/taskly-cli"]
+    },
+    {
+      "id": 2,
+      "prompt": "うちのOSS https://github.com/mahmoud/boltons、もっと人気出したいんだけど何が足りないと思う?",
+      "expected_output": "Stage-appropriate report that separates what the repo already does well (What NOT to bother with) from real gaps. Written in English (the default) since the user did not explicitly request another language, despite prompting in Japanese.",
+      "files": []
+    }
+  ]
+}
