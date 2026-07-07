@@ -37,6 +37,8 @@ Score each improvement on **Impact** (how much it moves stars: High/Med/Low) and
 
 Include promotion/launch recommendations from `references/promotion-playbook.md` only where relevant to the repo's stage (a 20-star repo needs launch tactics; a 5k-star repo needs community and content tactics).
 
+Before writing any number into the report (star counts, line numbers, download figures, dates, file references), re-check it against the data actually gathered in Step 1 — don't write from memory. A single mistyped or fabricated number gives the reader a reason to distrust every other finding in the audit.
+
 Write the report in English by default, even if the conversation is in another language — audit reports tend to get reused (pasted into issues, shared with co-maintainers, turned into README edits), and the OSS audience for those artifacts is English-speaking. Switch languages only when the user explicitly asks (e.g., 「レポートは日本語で」). Save the report as a Markdown file.
 
 ## Report structure
