@@ -4,6 +4,10 @@
 
 Point it at a GitHub URL or a local repo. It analyzes the repository the way a first-time visitor experiences it (the 10-second test), then delivers a Markdown report where every recommendation is tagged **Impact: High/Med/Low × Effort: High/Med/Low**, quick wins first — grounded in evidence from *your* repo, not generic listicle advice.
 
+![Demo: the skill auditing a real repository](assets/demo.gif)
+
+*A real run of the skill against [pyperclip](https://github.com/asweigart/pyperclip) — full report at [`examples/pyperclip-audit.md`](examples/pyperclip-audit.md).*
+
 ## What it audits
 
 - **First impression** — value proposition, demo GIF, the first screenful of your README
