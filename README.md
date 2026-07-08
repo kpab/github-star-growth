@@ -46,6 +46,10 @@ Every recommendation is numbered and cites specific evidence ("the first code bl
 
 Reports are written in English by default. Ask explicitly for another language if you prefer (e.g. 「レポートは日本語で」).
 
+## Tested
+
+Benchmarked against a no-skill baseline on the scenarios in `evals/evals.json`: 100% pass rate with the skill vs. 76.8% without — mostly from consistently applying Impact×Effort labels and cross-checking every number against the data actually gathered, instead of writing from memory.
+
 ## License
 
 [MIT](LICENSE)
