@@ -1,12 +1,20 @@
 ---
 name: github-star-growth
 description: >-
-  Audit a GitHub repository and produce a prioritized improvement report to grow its stars.
-  Use this skill whenever the user wants more GitHub stars, asks how to make their repo more
-  popular or discoverable, wants a README/repo review for growth, asks how to promote or launch
-  an open-source project, or mentions "スター" / "伸ばす" / repo growth in any form — even if they
-  only paste a GitHub URL and ask "how can I improve this?". Works with both GitHub URLs and
-  local repository directories.
+  Use this skill when someone wants a first-impression, outsider's audit of a GitHub repo to
+  figure out why it isn't earning stars or attention, or wants a prioritized plan before a
+  launch. Trigger on framings like "review my repo like a stranger," "why isn't this getting
+  stars," "what's wrong with our repo / why does it look unprofessional," "we're about to
+  launch/release, what should we fix first," or "nobody's starring this even though it's
+  useful" — even without the words "star" or "growth." Also trigger on explicit growth
+  language: more stars, スター, 伸ばす, promote, discoverability, popularity, visibility.
+  Accepts a GitHub URL or a local repo path, including a bare "how can I improve this?" with a
+  link. Produces a full prioritized audit report (Quick Wins / High-Impact / Later), not a
+  single fix.
+
+  Do NOT use for narrow single-task asks: fixing README typos, writing a CONTRIBUTING.md,
+  picking a license, reviewing a specific PR, refactoring folder structure, or fetching star
+  counts via the API.
 ---
 
 # GitHub Star Growth Audit
